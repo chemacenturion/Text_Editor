@@ -13,6 +13,11 @@ module.exports = () => {
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
+    devServer: {
+      hot: true,
+      static: './dist',
+      open: false,
+    },
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
@@ -34,6 +39,8 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'Just Another Text Editor',
         short_name: 'JATE',
         description: 'A text editor that utilizes IndexDB',
