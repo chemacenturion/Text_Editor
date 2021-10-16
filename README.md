@@ -18,6 +18,8 @@ The following application is a text editor that implements multiple PWA related 
 ## Deployment
 [Click here for deployed version](https://secure-everglades-37067.herokuapp.com/)
 
+![Text Editor](https://github.com/chemacenturion/Text_Editor/blob/main/client/src/images/JATE.gif?raw=true)
+
 ## Installation
 * To install neccesary dependencies please run the following command:
 npm install
