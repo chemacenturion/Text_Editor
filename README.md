@@ -1,16 +1,22 @@
 
 ## Text_Editor ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+![Text Editor](https://github.com/chemacenturion/Text_Editor/blob/main/client/src/images/Screenshot%20(177).png?raw=true)
+
 ## Description
 The following application is a text editor that implements multiple PWA related packages and uses IndexDB to save a users specific history of entries in the browser. The application is also downloadable and is able to be used offline.
 
 ## Table of Contents:
+* [Deployment](#Deployment)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Questions](#Questions)
+
+## Deployment
+[Click here for deployed version](https://secure-everglades-37067.herokuapp.com/)
 
 ## Installation
 * To install neccesary dependencies please run the following command:
